@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Anuja</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu-button" onclick="toggleMenu()">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+    </div>
+    <div id="side-menu" class="side-menu">
+        <a href="#meet-family">Meet My Family</a>
+        <a href="#meet-friends">Meet My Friends</a>
+        <a href="#my-life">My Life</a>
+        <a href="#about-business">About My Business</a>
+    </div>
+    <header>
+        <form class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+    <div class="container">
+        <h1>Meet My Bestfriend Anuja</h1>
+        <div class="introduction">
+            <p>Anuja and I have been friends for over 12 years. She affectionately calls us "4lifers," and she's always been there for me during the toughest times. We've shared countless memories, from waiting for each other after school to going on cycle rides together. Whether it was sharing a Frankie or just hanging out, we've experienced so much together. Our friendship has seen us through ups and downs, and I wouldn't trade those moments for anything. She’s not just a friend; she’s family.</p>
+        </div>
+        <div class="photos">
+            <img src="anuja 1.jpg" alt="Anuja Picture 1">
+            <p class="caption">"Anuja, you're like a fine wine, you just keep getting better with time!"</p>
+            <img src="anuja 2.JPG" alt="Anuja Picture 2">
+            <p class="caption">"With you, every moment is a beautiful adventure."</p>
+        </div>
+        <footer>
+            <p>With love, designed by 4lifer partner Aniket</p>
+        </footer>
+    </div>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('side-menu');
+            menu.style.width = menu.style.width === '250px' ? '0' : '250px';
+        }
+    </script>
+</body>
+</html>
